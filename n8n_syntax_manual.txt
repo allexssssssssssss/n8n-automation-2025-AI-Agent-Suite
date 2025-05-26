@@ -1,0 +1,812 @@
+Section A: Node Types & Frequency
+----------------------------------------
+- n8n-nodes-base.stickyNote: 1648 uses
+- n8n-nodes-base.set: 474 uses
+- n8n-nodes-base.httpRequest: 397 uses
+- @n8n/n8n-nodes-langchain.lmChatOpenAi: 198 uses
+- n8n-nodes-base.code: 154 uses
+- n8n-nodes-base.if: 144 uses
+- @n8n/n8n-nodes-langchain.agent: 114 uses
+- @n8n/n8n-nodes-langchain.openAi: 101 uses
+- n8n-nodes-base.manualTrigger: 99 uses
+- n8n-nodes-base.merge: 98 uses
+- n8n-nodes-base.splitOut: 88 uses
+- n8n-nodes-base.telegram: 82 uses
+- n8n-nodes-base.googleSheets: 81 uses
+- n8n-nodes-base.airtable: 77 uses
+- @n8n/n8n-nodes-langchain.chainLlm: 72 uses
+- n8n-nodes-base.switch: 64 uses
+- @n8n/n8n-nodes-langchain.memoryBufferWindow: 61 uses
+- n8n-nodes-base.respondToWebhook: 58 uses
+- n8n-nodes-base.noOp: 56 uses
+- n8n-nodes-base.webhook: 54 uses
+- @n8n/n8n-nodes-langchain.chatTrigger: 54 uses
+- n8n-nodes-base.googleDrive: 51 uses
+- @n8n/n8n-nodes-langchain.outputParserStructured: 49 uses
+- n8n-nodes-base.aggregate: 48 uses
+- n8n-nodes-base.splitInBatches: 48 uses
+- @n8n/n8n-nodes-langchain.embeddingsOpenAi: 48 uses
+- n8n-nodes-base.gmail: 47 uses
+- @n8n/n8n-nodes-langchain.toolWorkflow: 45 uses
+- n8n-nodes-base.html: 45 uses
+- n8n-nodes-base.scheduleTrigger: 45 uses
+- n8n-nodes-base.executeWorkflowTrigger: 43 uses
+- n8n-nodes-base.filter: 43 uses
+- n8n-nodes-base.extractFromFile: 37 uses
+- @n8n/n8n-nodes-langchain.documentDefaultDataLoader: 35 uses
+- n8n-nodes-base.wait: 34 uses
+- @n8n/n8n-nodes-langchain.toolHttpRequest: 33 uses
+- @n8n/n8n-nodes-langchain.lmChatGoogleGemini: 33 uses
+- @n8n/n8n-nodes-langchain.textSplitterRecursiveCharacterTextSplitter: 27 uses
+- @n8n/n8n-nodes-langchain.vectorStoreQdrant: 27 uses
+- n8n-nodes-base.openAi: 27 uses
+- @n8n/n8n-nodes-langchain.informationExtractor: 26 uses
+- n8n-nodes-base.slack: 26 uses
+- n8n-nodes-base.markdown: 22 uses
+- n8n-nodes-base.limit: 21 uses
+- n8n-nodes-base.formTrigger: 20 uses
+- n8n-nodes-base.executeWorkflow: 20 uses
+- n8n-nodes-base.microsoftOutlook: 20 uses
+- n8n-nodes-base.editImage: 19 uses
+- n8n-nodes-base.telegramTrigger: 19 uses
+- n8n-nodes-base.gmailTrigger: 17 uses
+- @n8n/n8n-nodes-langchain.vectorStorePinecone: 16 uses
+- n8n-nodes-base.emailSend: 16 uses
+- @n8n/n8n-nodes-langchain.textClassifier: 15 uses
+- @n8n/n8n-nodes-langchain.chainSummarization: 15 uses
+- n8n-nodes-base.googleAnalytics: 14 uses
+- n8n-nodes-base.convertToFile: 14 uses
+- n8n-nodes-base.jira: 14 uses
+- n8n-nodes-base.notion: 14 uses
+- n8n-nodes-base.form: 13 uses
+- @n8n/n8n-nodes-langchain.vectorStoreSupabase: 13 uses
+- n8n-nodes-base.whatsApp: 13 uses
+- n8n-nodes-base.wordpress: 13 uses
+- n8n-nodes-base.supabase: 12 uses
+- n8n-nodes-base.readWriteFile: 12 uses
+- @n8n/n8n-nodes-langchain.textSplitterTokenSplitter: 12 uses
+- @n8n/n8n-nodes-langchain.toolWikipedia: 12 uses
+- @n8n/n8n-nodes-langchain.outputParserAutofixing: 11 uses
+- @n8n/n8n-nodes-langchain.toolVectorStore: 10 uses
+- n8n-nodes-base.airtableTool: 9 uses
+- @n8n/n8n-nodes-langchain.chainRetrievalQa: 9 uses
+- n8n-nodes-base.googleDriveTrigger: 9 uses
+- @n8n/n8n-nodes-langchain.embeddingsGoogleGemini: 9 uses
+- n8n-nodes-base.googleCalendarTool: 8 uses
+- n8n-nodes-base.removeDuplicates: 8 uses
+- @n8n/n8n-nodes-langchain.retrieverVectorStore: 8 uses
+- n8n-nodes-base.redis: 8 uses
+- @n8n/n8n-nodes-langchain.lmChatOllama: 8 uses
+- n8n-nodes-base.googleDocs: 8 uses
+- n8n-nodes-base.postgres: 8 uses
+- n8n-nodes-base.spotify: 8 uses
+- n8n-nodes-base.gmailTool: 7 uses
+- @n8n/n8n-nodes-langchain.lmChatMistralCloud: 7 uses
+- @n8n/n8n-nodes-langchain.toolCalculator: 7 uses
+- n8n-nodes-base.summarize: 7 uses
+- @n8n/n8n-nodes-langchain.lmChatAnthropic: 7 uses
+- n8n-nodes-base.itemLists: 7 uses
+- n8n-nodes-base.postgresTool: 7 uses
+- n8n-nodes-base.emailReadImap: 7 uses
+- @n8n/n8n-nodes-langchain.embeddingsMistralCloud: 6 uses
+- @n8n/n8n-nodes-langchain.memoryPostgresChat: 6 uses
+- n8n-nodes-base.twitter: 6 uses
+- n8n-nodes-base.discord: 6 uses
+- @n8n/n8n-nodes-langchain.memoryManager: 6 uses
+- n8n-nodes-base.googleCalendar: 6 uses
+- @n8n/n8n-nodes-langchain.manualChatTrigger: 6 uses
+- @n8n/n8n-nodes-langchain.vectorStoreInMemory: 6 uses
+- n8n-nodes-base.sort: 6 uses
+- @n8n/n8n-nodes-langchain.toolCode: 5 uses
+- n8n-nodes-base.dateTime: 5 uses
+- @n8n/n8n-nodes-langchain.lmChatGroq: 5 uses
+- n8n-nodes-base.bambooHr: 5 uses
+- n8n-nodes-base.googleCloudNaturalLanguage: 5 uses
+- n8n-nodes-base.googleDocsTool: 5 uses
+- n8n-nodes-base.localFileTrigger: 4 uses
+- n8n-nodes-base.youTube: 4 uses
+- @n8n/n8n-nodes-langchain.lmChatOpenRouter: 4 uses
+- n8n-nodes-base.baserow: 4 uses
+- n8n-nodes-base.linear: 4 uses
+- n8n-nodes-base.crypto: 4 uses
+- n8n-nodes-base.function: 4 uses
+- n8n-nodes-base.facebookGraphApi: 4 uses
+- n8n-nodes-base.stopAndError: 4 uses
+- n8n-nodes-base.hubspot: 4 uses
+- n8n-nodes-base.n8n: 4 uses
+- n8n-nodes-base.twilio: 4 uses
+- n8n-nodes-base.pipedrive: 4 uses
+- n8n-nodes-base.compression: 3 uses
+- n8n-nodes-base.hackerNews: 3 uses
+- n8n-nodes-base.linkedIn: 3 uses
+- n8n-nodes-base.mySql: 3 uses
+- n8n-nodes-base.executionData: 3 uses
+- n8n-nodes-base.googleSheetsTrigger: 3 uses
+- n8n-nodes-base.typeformTrigger: 3 uses
+- n8n-nodes-base.notionTrigger: 3 uses
+- @n8n/n8n-nodes-langchain.toolSerpApi: 3 uses
+- n8n-nodes-base.airtableTrigger: 3 uses
+- n8n-nodes-base.erpNext: 3 uses
+- @n8n/n8n-nodes-langchain.lmOpenAi: 3 uses
+- n8n-nodes-base.strapi: 3 uses
+- n8n-nodes-base.executeCommand: 3 uses
+- n8n-nodes-base.humanticAi: 3 uses
+- n8n-nodes-base.whatsAppTrigger: 3 uses
+- n8n-nodes-base.github: 2 uses
+- n8n-nodes-base.s3: 2 uses
+- n8n-nodes-base.dropbox: 2 uses
+- @n8n/n8n-nodes-langchain.sentimentAnalysis: 2 uses
+- n8n-nodes-base.rssFeedReadTrigger: 2 uses
+- n8n-nodes-base.microsoftOutlookTrigger: 2 uses
+- n8n-nodes-base.lemlistTrigger: 2 uses
+- n8n-nodes-base.lemlist: 2 uses
+- n8n-nodes-base.writeBinaryFile: 2 uses
+- n8n-nodes-base.readBinaryFile: 2 uses
+- @n8n/n8n-nodes-langchain.vectorStorePGVector: 2 uses
+- n8n-nodes-base.googleSheetsTool: 2 uses
+- @n8n/n8n-nodes-langchain.outputParserItemList: 2 uses
+- @n8n/n8n-nodes-langchain.openAiAssistant: 2 uses
+- @n8n/n8n-nodes-langchain.code: 2 uses
+- @n8n/n8n-nodes-langchain.lmOllama: 2 uses
+- n8n-nodes-base.mattermost: 2 uses
+- n8n-nodes-base.zendesk: 2 uses
+- n8n-nodes-base.twilioTrigger: 2 uses
+- n8n-nodes-base.todoist: 2 uses
+- n8n-nodes-base.cron: 2 uses
+- n8n-nodes-base.moveBinaryData: 2 uses
+- n8n-nodes-base.graphql: 2 uses
+- n8n-nodes-base.venafiTlsProtectCloud: 2 uses
+- n8n-nodes-base.baserowTool: 2 uses
+- n8n-nodes-base.elasticsearch: 1 uses
+- n8n-nodes-base.microsoftOneDrive: 1 uses
+- n8n-nodes-base.nocoDb: 1 uses
+- n8n-nodes-base.quickChart: 1 uses
+- n8n-nodes-base.googleCloudStorage: 1 uses
+- n8n-nodes-base.mongoDbTool: 1 uses
+- @n8n/n8n-nodes-langchain.lmChatDeepSeek: 1 uses
+- n8n-nodes-base.mondayCom: 1 uses
+- n8n-nodes-base.readPDF: 1 uses
+- n8n-nodes-base.errorTrigger: 1 uses
+- n8n-nodes-base.functionItem: 1 uses
+- n8n-nodes-base.reddit: 1 uses
+- n8n-nodes-base.bannerbear: 1 uses
+- n8n-nodes-base.start: 1 uses
+- n8n-nodes-base.trello: 1 uses
+- @n8n/n8n-nodes-langchain.documentBinaryInputLoader: 1 uses
+- n8n-nodes-base.stravaTrigger: 1 uses
+- n8n-nodes-base.wooCommerce: 1 uses
+- n8n-nodes-base.dhl: 1 uses
+- @n8n/n8n-nodes-langchain.retrieverWorkflow: 1 uses
+- @n8n/n8n-nodes-langchain.documentJsonInputLoader: 1 uses
+- n8n-nodes-base.jiraTool: 1 uses
+- n8n-nodes-base.notionTool: 1 uses
+- n8n-nodes-base.mySqlTool: 1 uses
+- n8n-nodes-base.webflow: 1 uses
+- n8n-nodes-base.readBinaryFiles: 1 uses
+- n8n-nodes-base.wooCommerceTool: 1 uses
+- n8n-nodes-youtube-transcription.youtubeTranscripter: 1 uses
+- n8n-nodes-base.awsComprehend: 1 uses
+- n8n-nodes-base.interval: 1 uses
+- n8n-nodes-base.linearTrigger: 1 uses
+- n8n-nodes-base.googleAnalyticsTool: 1 uses
+- n8n-nodes-base.zoom: 1 uses
+- n8n-nodes-base.microsoftOutlookTool: 1 uses
+- n8n-nodes-base.clickUp: 1 uses
+- n8n-nodes-base.mongoDb: 1 uses
+- n8n-nodes-base.spreadsheetFile: 1 uses
+- n8n-nodes-base.rssFeedRead: 1 uses
+- n8n-nodes-base.pipedriveTrigger: 1 uses
+- n8n-nodes-base.telegramTool: 1 uses
+- n8n-nodes-base.googlePerspective: 1 uses
+
+
+Section B: Common Node Connections
+----------------------------------------
+
+
+Section C: Common Workflow Patterns
+----------------------------------------
+
+
+Section D: Node Parameter Patterns
+----------------------------------------
+
+@n8n/n8n-nodes-langchain.agent:
+  Common parameters: agent, dataSource, hasOutputParser, options, promptType, text
+
+@n8n/n8n-nodes-langchain.lmChatOpenAi:
+  Common parameters: model, options, requestOptions
+
+@n8n/n8n-nodes-langchain.toolWorkflow:
+  Common parameters: description, fields, inputSchema, jsonSchemaExample, name, requestOptions, responsePropertyName, schemaType, source, specifyInputSchema, workflowId, workflowInputs, workflowJson
+
+n8n-nodes-base.gmailTool:
+  Common parameters: descriptionType, emailType, filters, labelIds, limit, message, messageId, name, operation, options, resource, returnAll, sendTo, subject, toolDescription
+
+n8n-nodes-base.executeWorkflowTrigger:
+  Common parameters: inputSource, jsonExample, workflowInputs
+
+n8n-nodes-base.splitOut:
+  Common parameters: fieldToSplitOut, fieldsToInclude, include, options
+
+n8n-nodes-base.airtable:
+  Common parameters: addAllFields, additionalOptions, application, base, columns, fields, filterByFormula, id, limit, operation, options, resource, returnAll, table
+
+n8n-nodes-base.googleCalendarTool:
+  Common parameters: additionalFields, calendar, descriptionType, end, limit, operation, options, start, toolDescription, useDefaultReminders
+
+n8n-nodes-base.webhook:
+  Common parameters: authentication, httpMethod, multipleMethods, options, path, responseMode
+
+n8n-nodes-base.httpRequest:
+  Common parameters: , authentication, binaryPropertyName, body, bodyParameters, bodyParametersJson, contentType, curlImport, dataPropertyName, genericAuthType, headerParameters, headerParametersUi, httpVariantWarning, infoMessage, inputDataFieldName, jsonBody, jsonHeaders, jsonParameters, jsonQuery, method, nodeCredentialType, options, provideSslCertificates, queryParameters, queryParametersUi, rawContentType, requestMethod, responseFormat, sendBinaryData, sendBody, sendHeaders, sendQuery, specifyBody, specifyHeaders, specifyQuery, url
+
+n8n-nodes-base.stickyNote:
+  Common parameters: color, content, height, width
+
+@n8n/n8n-nodes-langchain.memoryBufferWindow:
+  Common parameters: contextWindowLength, sessionIdType, sessionKey
+
+@n8n/n8n-nodes-langchain.chatTrigger:
+  Common parameters: initialMessages, mode, options, public
+
+n8n-nodes-base.set:
+  Common parameters: assignments, excludeFields, fields, include, includeFields, includeOtherFields, jsonOutput, keepOnlySet, mode, options, values
+
+n8n-nodes-base.switch:
+  Common parameters: dataType, fallbackOutput, looseTypeValidation, options, rules, value1
+
+n8n-nodes-base.aggregate:
+  Common parameters: aggregate, destinationFieldName, fieldsToAggregate, fieldsToInclude, include, options
+
+n8n-nodes-base.merge:
+  Common parameters: advanced, combinationMode, combineBy, fieldsToMatchString, joinMode, mergeByFields, mode, numberInputs, options, outputDataFrom, useDataOfInput
+
+n8n-nodes-base.if:
+  Common parameters: combineOperation, conditions, looseTypeValidation, options
+
+@n8n/n8n-nodes-langchain.toolCode:
+  Common parameters: description, inputSchema, jsCode, language, name, pythonCode, schemaType, specifyInputSchema
+
+n8n-nodes-base.airtableTool:
+  Common parameters: base, descriptionType, id, operation, options, table, toolDescription
+
+n8n-nodes-base.respondToWebhook:
+  Common parameters: options, respondWith, responseBody, responseDataSource
+
+n8n-nodes-base.extractFromFile:
+  Common parameters: binaryPropertyName, destinationKey, operation, options
+
+@n8n/n8n-nodes-langchain.outputParserStructured:
+  Common parameters: inputSchema, jsonSchema, jsonSchemaExample, requestOptions, schemaType
+
+n8n-nodes-base.formTrigger:
+  Common parameters: formDescription, formFields, formTitle, options, path, responseMode
+
+@n8n/n8n-nodes-langchain.textClassifier:
+  Common parameters: categories, inputText, options
+
+n8n-nodes-base.form:
+  Common parameters: completionMessage, completionTitle, defineForm, formFields, jsonOutput, operation, options, redirectUrl, respondWith
+
+@n8n/n8n-nodes-langchain.chainLlm:
+  Common parameters: hasOutputParser, messages, prompt, promptType, text
+
+n8n-nodes-base.wait:
+  Common parameters: amount, unit
+
+n8n-nodes-base.code:
+  Common parameters: jsCode, language, mode, pythonCode
+
+@n8n/n8n-nodes-langchain.openAi:
+  Common parameters: assistantId, binaryPropertyName, description, file_ids, imageUrls, input, inputType, instructions, jsonOutput, knowledgeRetrieval, memory, messages, modelId, name, operation, options, prompt, resource, text, threadId, voice
+
+n8n-nodes-base.manualTrigger:
+  Common parameters: 
+
+n8n-nodes-base.supabase:
+  Common parameters: dataToSend, fieldsUi, filterString, filterType, filters, operation, returnAll, tableId
+
+n8n-nodes-base.markdown:
+  Common parameters: destinationKey, html, markdown, mode, options
+
+n8n-nodes-base.html:
+  Common parameters: dataPropertyName, extractionValues, html, operation, options
+
+n8n-nodes-base.removeDuplicates:
+  Common parameters: compare, dedupeValue, fieldsToCompare, operation, options
+
+n8n-nodes-base.filter:
+  Common parameters: conditions, options
+
+n8n-nodes-base.localFileTrigger:
+  Common parameters: events, options, path, triggerOn
+
+n8n-nodes-base.readWriteFile:
+  Common parameters: dataPropertyName, fileName, fileSelector, operation, options
+
+@n8n/n8n-nodes-langchain.embeddingsMistralCloud:
+  Common parameters: options
+
+@n8n/n8n-nodes-langchain.documentDefaultDataLoader:
+  Common parameters: binaryMode, dataType, jsonData, jsonMode, loader, options
+
+@n8n/n8n-nodes-langchain.textSplitterRecursiveCharacterTextSplitter:
+  Common parameters: chunkOverlap, chunkSize, options
+
+@n8n/n8n-nodes-langchain.chainRetrievalQa:
+  Common parameters: options, promptType, query, text
+
+@n8n/n8n-nodes-langchain.lmChatMistralCloud:
+  Common parameters: model, options
+
+@n8n/n8n-nodes-langchain.retrieverVectorStore:
+  Common parameters: topK
+
+@n8n/n8n-nodes-langchain.vectorStoreQdrant:
+  Common parameters: includeDocumentMetadata, mode, options, prompt, qdrantCollection, toolDescription, toolName, topK
+
+n8n-nodes-base.compression:
+  Common parameters: 
+
+n8n-nodes-base.splitInBatches:
+  Common parameters: batchSize, options
+
+n8n-nodes-base.editImage:
+  Common parameters: dataPropertyName, height, operation, operations, options, positionX, positionY, resizeOption, width
+
+n8n-nodes-base.elasticsearch:
+  Common parameters: additionalFields, fieldsUi, indexId, operation, options
+
+n8n-nodes-base.github:
+  Common parameters: additionalParameters, filePath, operation, owner, repository, resource
+
+@n8n/n8n-nodes-langchain.embeddingsOpenAi:
+  Common parameters: model, options
+
+@n8n/n8n-nodes-langchain.textSplitterTokenSplitter:
+  Common parameters: chunkOverlap, chunkSize
+
+@n8n/n8n-nodes-langchain.vectorStorePinecone:
+  Common parameters: mode, options, pineconeIndex, prompt, topK
+
+@n8n/n8n-nodes-langchain.toolVectorStore:
+  Common parameters: description, name, topK
+
+n8n-nodes-base.scheduleTrigger:
+  Common parameters: rule
+
+n8n-nodes-base.googleAnalytics:
+  Common parameters: additionalFields, dateRange, dimensionsGA4, endDate, metricsGA4, propertyId, returnAll, simple, startDate
+
+n8n-nodes-base.emailSend:
+  Common parameters: emailFormat, fromEmail, html, message, operation, options, subject, text, toEmail
+
+n8n-nodes-base.telegram:
+  Common parameters: action, additionalFields, binaryData, chatId, file, fileId, inlineKeyboard, messageId, operation, replyMarkup, resource, text
+
+@n8n/n8n-nodes-langchain.toolCalculator:
+  Common parameters: 
+
+n8n-nodes-base.summarize:
+  Common parameters: fieldsToSummarize, options
+
+n8n-nodes-base.googleSheets:
+  Common parameters: authentication, columnToMatchOn, columns, combineFilters, dataMode, documentId, fieldsUi, filtersUI, operation, options, resource, sheetName, sheetsUi, title, valueToMatchOn
+
+n8n-nodes-base.executeWorkflow:
+  Common parameters: mode, options, workflowId
+
+@n8n/n8n-nodes-langchain.informationExtractor:
+  Common parameters: attributes, inputSchema, jsonSchemaExample, options, schemaType, text
+
+n8n-nodes-base.gmail:
+  Common parameters: approvalOptions, emailType, filters, labelId, labelIds, limit, message, messageId, operation, options, resource, responseType, returnAll, sendTo, simple, subject, threadId
+
+@n8n/n8n-nodes-langchain.memoryPostgresChat:
+  Common parameters: contextWindowLength, sessionIdType, sessionKey, tableName
+
+@n8n/n8n-nodes-langchain.lmChatAnthropic:
+  Common parameters: model, options
+
+n8n-nodes-base.noOp:
+  Common parameters: 
+
+n8n-nodes-base.limit:
+  Common parameters: keep, maxItems
+
+n8n-nodes-base.hackerNews:
+  Common parameters: additionalFields, limit, resource
+
+@n8n/n8n-nodes-langchain.toolHttpRequest:
+  Common parameters: authentication, dataField, fields, fieldsToInclude, genericAuthType, jsonBody, jsonQuery, method, nodeCredentialType, optimizeResponse, parametersBody, parametersHeaders, parametersQuery, placeholderDefinitions, sendBody, sendHeaders, sendQuery, specifyBody, specifyQuery, toolDescription, url
+
+n8n-nodes-base.s3:
+  Common parameters: additionalFields, bucketName, fileName, operation
+
+n8n-nodes-base.dropbox:
+  Common parameters: authentication, operation, path
+
+n8n-nodes-base.googleDrive:
+  Common parameters: authentication, binaryData, content, driveId, fileId, filter, folderId, inputDataFieldName, name, operation, options, parents, resource
+
+n8n-nodes-base.microsoftOneDrive:
+  Common parameters: 
+
+n8n-nodes-base.youTube:
+  Common parameters: filters, limit, operation, options, resource, videoId
+
+n8n-nodes-base.twitter:
+  Common parameters: additionalFields, limit, operation, searchText, text
+
+n8n-nodes-base.linkedIn:
+  Common parameters: additionalFields, person, shareMediaCategory, text
+
+n8n-nodes-base.dateTime:
+  Common parameters: duration, endDate, magnitude, operation, options, outputFieldName, startDate, timeUnit
+
+@n8n/n8n-nodes-langchain.outputParserAutofixing:
+  Common parameters: options
+
+@n8n/n8n-nodes-langchain.lmChatGoogleGemini:
+  Common parameters: modelName, options
+
+@n8n/n8n-nodes-langchain.lmChatOpenRouter:
+  Common parameters: model, options
+
+@n8n/n8n-nodes-langchain.toolWikipedia:
+  Common parameters: 
+
+n8n-nodes-base.openAi:
+  Common parameters: chatModel, input, instruction, model, operation, options, prompt, requestOptions, resource, responseFormat, simplifyOutput
+
+n8n-nodes-base.nocoDb:
+  Common parameters: authentication, fieldsUi, operation, projectId, table
+
+n8n-nodes-base.itemLists:
+  Common parameters: aggregate, destinationFieldName, fieldToSplitOut, fieldsToExclude, include, operation, options, sortFieldsUi
+
+@n8n/n8n-nodes-langchain.chainSummarization:
+  Common parameters: chunkSize, chunkingMode, operationMode, options, type
+
+@n8n/n8n-nodes-langchain.sentimentAnalysis:
+  Common parameters: inputText, options
+
+n8n-nodes-base.baserow:
+  Common parameters: databaseId, fieldsUi, operation, tableId
+
+n8n-nodes-base.quickChart:
+  Common parameters: chartOptions, data, datasetOptions, labelsArray, labelsMode, output
+
+n8n-nodes-base.convertToFile:
+  Common parameters: operation, options, sourceProperty
+
+n8n-nodes-base.googleCloudStorage:
+  Common parameters: bucketName, listFilters, requestOptions, resource, returnAll
+
+n8n-nodes-base.linear:
+  Common parameters: additionalFields, issueId, operation, teamId, title, updateFields
+
+n8n-nodes-base.postgresTool:
+  Common parameters: descriptionType, operation, options, query, toolDescription
+
+n8n-nodes-base.mySql:
+  Common parameters: operation, options, query
+
+n8n-nodes-base.mongoDbTool:
+  Common parameters: collection, descriptionType, operation, query, toolDescription
+
+@n8n/n8n-nodes-langchain.vectorStoreSupabase:
+  Common parameters: id, mode, options, prompt, tableName
+
+n8n-nodes-base.discord:
+  Common parameters: authentication, channelId, content, files, guildId, options, resource, text, webhookUri
+
+n8n-nodes-base.rssFeedReadTrigger:
+  Common parameters: feedUrl, pollTimes
+
+@n8n/n8n-nodes-langchain.memoryManager:
+  Common parameters: deleteMode, messages, mode, options
+
+n8n-nodes-base.crypto:
+  Common parameters: action, dataPropertyName, value
+
+n8n-nodes-base.redis:
+  Common parameters: expire, key, keyType, list, messageData, operation, options, propertyName, tail, ttl, value
+
+@n8n/n8n-nodes-langchain.lmChatGroq:
+  Common parameters: model, options
+
+n8n-nodes-base.executionData:
+  Common parameters: dataToSave
+
+n8n-nodes-base.googleCalendar:
+  Common parameters: additionalFields, calendar, end, eventId, limit, operation, options, returnAll, start, updateFields
+
+n8n-nodes-base.emailReadImap:
+  Common parameters: downloadAttachments, options, postProcessAction
+
+n8n-nodes-base.gmailTrigger:
+  Common parameters: filters, options, pollTimes, simple
+
+n8n-nodes-base.microsoftOutlookTrigger:
+  Common parameters: fields, filters, options, output, pollTimes
+
+n8n-nodes-base.jira:
+  Common parameters: additionalFields, comment, issueKey, issueType, limit, operation, options, project, resource, summary, updateFields
+
+@n8n/n8n-nodes-langchain.lmChatOllama:
+  Common parameters: model, options
+
+n8n-nodes-base.microsoftOutlook:
+  Common parameters: additionalFields, bodyContent, fields, filtersUI, folderId, limit, messageId, operation, options, output, subject, toRecipients, updateFields
+
+n8n-nodes-base.lemlistTrigger:
+  Common parameters: event, options
+
+n8n-nodes-base.slack:
+  Common parameters: attachments, authentication, blocksUi, channel, channelId, limit, messageType, operation, options, otherOptions, query, select, text, timestamp
+
+n8n-nodes-base.lemlist:
+  Common parameters: campaignId, email, operation, resource
+
+@n8n/n8n-nodes-langchain.lmChatDeepSeek:
+  Common parameters: options
+
+n8n-nodes-base.mondayCom:
+  Common parameters: boardId, groupId, operation, resource, returnAll
+
+n8n-nodes-base.readPDF:
+  Common parameters: 
+
+n8n-nodes-base.googleDriveTrigger:
+  Common parameters: authentication, event, folderToWatch, options, pollTimes, triggerOn
+
+n8n-nodes-base.telegramTrigger:
+  Common parameters: additionalFields, updates
+
+n8n-nodes-base.googleSheetsTrigger:
+  Common parameters: documentId, event, options, pollTimes, sheetName
+
+@n8n/n8n-nodes-langchain.embeddingsGoogleGemini:
+  Common parameters: modelName
+
+n8n-nodes-base.googleDocs:
+  Common parameters: actionsUi, authentication, documentURL, folderId, operation, title
+
+n8n-nodes-base.errorTrigger:
+  Common parameters: 
+
+n8n-nodes-base.writeBinaryFile:
+  Common parameters: fileName, options
+
+n8n-nodes-base.readBinaryFile:
+  Common parameters: dataPropertyName, filePath
+
+n8n-nodes-base.bambooHr:
+  Common parameters: fileId, operation, resource, returnAll, simplifyOutput
+
+@n8n/n8n-nodes-langchain.vectorStorePGVector:
+  Common parameters: mode, options
+
+n8n-nodes-base.function:
+  Common parameters: functionCode
+
+n8n-nodes-base.postgres:
+  Common parameters: columns, operation, options, query, returnFields, schema, table, where
+
+n8n-nodes-base.facebookGraphApi:
+  Common parameters: edge, graphApiVersion, httpRequestMethod, node, options
+
+n8n-nodes-base.functionItem:
+  Common parameters: functionCode
+
+n8n-nodes-base.reddit:
+  Common parameters: additionalFields, keyword, location, operation
+
+n8n-nodes-base.bannerbear:
+  Common parameters: additionalFields, modificationsUi, templateId
+
+n8n-nodes-base.start:
+  Common parameters: 
+
+n8n-nodes-base.typeformTrigger:
+  Common parameters: formId
+
+n8n-nodes-base.googleCloudNaturalLanguage:
+  Common parameters: content, options
+
+n8n-nodes-base.notion:
+  Common parameters: blockId, blockUi, databaseId, fetchNestedBlocks, filterType, filters, operation, options, pageId, propertiesUi, resource, returnAll, simple, title
+
+n8n-nodes-base.trello:
+  Common parameters: additionalFields, description, listId, name
+
+n8n-nodes-base.notionTrigger:
+  Common parameters: databaseId, event, pollTimes, simple
+
+@n8n/n8n-nodes-langchain.toolSerpApi:
+  Common parameters: options
+
+@n8n/n8n-nodes-langchain.manualChatTrigger:
+  Common parameters: 
+
+@n8n/n8n-nodes-langchain.documentBinaryInputLoader:
+  Common parameters: loader, options
+
+n8n-nodes-base.stravaTrigger:
+  Common parameters: event, object, options
+
+n8n-nodes-base.whatsApp:
+  Common parameters: additionalFields, mediaGetId, operation, phoneNumberId, recipientPhoneNumber, requestOptions, resource, textBody
+
+n8n-nodes-base.airtableTrigger:
+  Common parameters: additionalFields, authentication, baseId, pollTimes, tableId, triggerField
+
+n8n-nodes-base.googleSheetsTool:
+  Common parameters: documentId, options, sheetName
+
+n8n-nodes-base.googleDocsTool:
+  Common parameters: actionsUi, descriptionType, documentURL, operation, toolDescription
+
+n8n-nodes-base.wordpress:
+  Common parameters: additionalFields, operation, options, postId, resource, returnAll, title, updateFields
+
+n8n-nodes-base.erpNext:
+  Common parameters: docType, documentName, operation, properties
+
+n8n-nodes-base.wooCommerce:
+  Common parameters: filters, limit, operation, resource
+
+n8n-nodes-base.dhl:
+  Common parameters: options, trackingNumber
+
+@n8n/n8n-nodes-langchain.retrieverWorkflow:
+  Common parameters: workflowId
+
+@n8n/n8n-nodes-langchain.documentJsonInputLoader:
+  Common parameters: pointers
+
+n8n-nodes-base.jiraTool:
+  Common parameters: descriptionType, limit, operation, options, toolDescription
+
+n8n-nodes-base.notionTool:
+  Common parameters: descriptionType, limit, operation, options, text, toolDescription
+
+@n8n/n8n-nodes-langchain.outputParserItemList:
+  Common parameters: options
+
+n8n-nodes-base.mySqlTool:
+  Common parameters: descriptionType, operation, options, query, toolDescription
+
+@n8n/n8n-nodes-langchain.openAiAssistant:
+  Common parameters: assistantId, options, text
+
+@n8n/n8n-nodes-langchain.lmOpenAi:
+  Common parameters: model, options
+
+@n8n/n8n-nodes-langchain.code:
+  Common parameters: code, inputs, outputs
+
+@n8n/n8n-nodes-langchain.lmOllama:
+  Common parameters: model, options
+
+n8n-nodes-base.strapi:
+  Common parameters: columns, contentType, operation
+
+n8n-nodes-base.webflow:
+  Common parameters: operation
+
+n8n-nodes-base.stopAndError:
+  Common parameters: errorMessage
+
+@n8n/n8n-nodes-langchain.vectorStoreInMemory:
+  Common parameters: clearStore, memoryKey, mode, prompt
+
+n8n-nodes-base.hubspot:
+  Common parameters: additionalFields, authentication, email, metadata, resource, stage, type
+
+n8n-nodes-base.readBinaryFiles:
+  Common parameters: fileSelector
+
+n8n-nodes-base.executeCommand:
+  Common parameters: command, executeOnce
+
+n8n-nodes-base.wooCommerceTool:
+  Common parameters: operation, options
+
+n8n-nodes-base.n8n:
+  Common parameters: filters, operation, requestOptions, workflowId
+
+n8n-nodes-youtube-transcription.youtubeTranscripter:
+  Common parameters: 
+
+n8n-nodes-base.sort:
+  Common parameters: options, sortFieldsUi
+
+n8n-nodes-base.mattermost:
+  Common parameters: attachments, channelId, message, otherOptions
+
+n8n-nodes-base.awsComprehend:
+  Common parameters: operation, text
+
+n8n-nodes-base.zendesk:
+  Common parameters: id, operation, options, updateFields
+
+n8n-nodes-base.interval:
+  Common parameters: interval, unit
+
+n8n-nodes-base.linearTrigger:
+  Common parameters: authentication, resources, teamId
+
+n8n-nodes-base.humanticAi:
+  Common parameters: operation, options, sendResume, userId
+
+n8n-nodes-base.twilioTrigger:
+  Common parameters: updates
+
+n8n-nodes-base.twilio:
+  Common parameters: from, message, options, to
+
+n8n-nodes-base.spotify:
+  Common parameters: additionalFields, filters, id, limit, operation, query, resource, returnAll, trackID
+
+n8n-nodes-base.pipedrive:
+  Common parameters: additionalFields, content, limit, operation, personId, resolveProperties, resource, term, title
+
+n8n-nodes-base.todoist:
+  Common parameters: filters, operation, returnAll, taskId, updateFields
+
+n8n-nodes-base.googleAnalyticsTool:
+  Common parameters: additionalFields, dimensionsGA4, metricsGA4, propertyId
+
+n8n-nodes-base.zoom:
+  Common parameters: authentication, filters, operation, returnAll
+
+n8n-nodes-base.microsoftOutlookTool:
+  Common parameters: additionalFields, calendarId, descriptionType, endDateTime, operation, resource, startDateTime, subject, toolDescription
+
+n8n-nodes-base.clickUp:
+  Common parameters: additionalFields, authentication, folder, list, name, space, team
+
+n8n-nodes-base.mongoDb:
+  Common parameters: collection, fields, operation, options
+
+n8n-nodes-base.cron:
+  Common parameters: triggerTimes
+
+n8n-nodes-base.spreadsheetFile:
+  Common parameters: fileFormat, operation, options
+
+n8n-nodes-base.moveBinaryData:
+  Common parameters: convertAllData, mode, options, setAllData
+
+n8n-nodes-base.rssFeedRead:
+  Common parameters: options, url
+
+n8n-nodes-base.pipedriveTrigger:
+  Common parameters: action, object
+
+n8n-nodes-base.graphql:
+  Common parameters: authentication, endpoint, query, requestFormat, variables
+
+n8n-nodes-base.venafiTlsProtectCloud:
+  Common parameters: additionalFields, applicationId, certificateIssuingTemplateId, commonName, generateCsr, options
+
+n8n-nodes-base.telegramTool:
+  Common parameters: additionalFields, chatId, file, operation
+
+n8n-nodes-base.baserowTool:
+  Common parameters: additionalOptions, databaseId, descriptionType, tableId, toolDescription
+
+n8n-nodes-base.googlePerspective:
+  Common parameters: options, requestedAttributesUi, text
+
+n8n-nodes-base.whatsAppTrigger:
+  Common parameters: updates
+
+Section E: Files with Errors
+----------------------------------------
+- Host Your Own AI Deep Research Agent with n8n, Apify and OpenAI o3.txt: Invalid JSON format
+- 🔍 Perplexity Research to HTML_ AI-Powered Content Creation.txt: Invalid JSON format
+- ALL_unique_nodes.txt: No JSON object found

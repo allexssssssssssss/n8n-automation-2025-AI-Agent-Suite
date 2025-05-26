@@ -1,257 +1,189 @@
-# n8n_automations
-This repository contains a collection of n8n automation templates sourced from the internet. These templates are designed to help automate a wide range of tasks and workflows using [n8n](https://n8n.partnerlinks.io/h1pwwf5m4toe), making it easier for users to discover and use ready-made automations for various platforms and services.
+# n8n Automation Portfolio
 
-👉 [Join n8n and start automating now! 💎](https://n8n.partnerlinks.io/h1pwwf5m4toe)
-<a href="https://n8n.partnerlinks.io/h1pwwf5m4toe">
-  <img src="/img/n8n.png" alt="n8n" style="max-height: 300px;">
-</a>
+## Professional n8n Automation Engineer & Integration Specialist
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/tanveer-hussain-277119196/)
+[![Upwork](https://img.shields.io/badge/Upwork-Hire-green)](https://www.upwork.com/freelancers/~01a14d825a9bd8689d)
+[![Email](https://img.shields.io/badge/Email-Contact-red)](mailto:agapaitanveermou@gmail.com)
 
----
+## 🚀 Featured Automation Projects
 
-## Disclaimer
-All automation templates in this repository were found online and are uploaded here solely for easy access and sharing. None of the templates are created or owned by the repository author. If you encounter any issues, errors, or damages resulting from the use of these templates, the repository author assumes no responsibility or liability. All rights to the original templates belong to their respective creators.
+This portfolio showcases a comprehensive collection of sophisticated n8n automation workflows, demonstrating expertise in:
 
----
+### 🤖 AI & Machine Learning Integration
+- GPT-4/Claude/Gemini implementations
+- RAG (Retrieval Augmented Generation) systems
+- AI-powered data analysis workflows
+- Vector database implementations
+- Advanced NLP and text processing
+- Local LLM integration (Ollama, Mistral)
+- Multi-modal AI processing (text, image, audio)
 
-☕ Before diving into the long list of categories and templates, grab your coffee-and if you enjoy my work, don’t forget to buy me a coffee! 
+### 📊 Business Process Automation
+- CRM integrations (HubSpot, Pipedrive)
+- Marketing automation
+- Customer service workflows
+- Data processing pipelines
+- HR and recruitment automation
+- Sales process automation
+- Project management integration
 
-<a href="https://buymeacoffee.com/enescingoz" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+### 🔌 API & Service Integration
+- Google Workspace (Drive, Sheets, Calendar)
+- Microsoft 365
+- Social Media Platforms
+- Database Systems (PostgreSQL, MongoDB, Supabase)
+- Custom API implementations
+- Cloud Services (AWS, GCP, Azure)
 
---- 
+## 📁 Project Categories
 
-## Categories & Template List
+### AI & Research
+- [AI Research RAG and Data Analysis](./AI_Research_RAG_and_Data_Analysis)
+  - Automated Hugging Face Paper Summary Fetching & Categorization
+  - Perplexity Research to HTML: AI-Powered Content Creation
+  - Visual Regression Testing with Apify and AI Vision Model
+  - Vector Database as a Big Data Analysis Tool for AI Agents
+  - Building RAG Chatbot for Movie Recommendations
+  - Financial Documents Assistant using Qdrant and Mistral.ai
+  - AI-Powered Information Monitoring with OpenAI and Google Sheets
 
----
+### Business & Productivity
+- [Airtable Automations](./Airtable)
+  - AI Agent for project management and meetings
+  - AI Agent to chat with Airtable and analyze data
+  - Handling Job Application Submissions with AI
+  - vAssistant for Hubspot Chat using OpenAI
+  - Automated data processing and analysis
 
-🤖 Want to translate, rewrite, and repost Twitter (X) threads automatically?
+### Communication & Marketing
+- [Email & Gmail Automation](./Gmail_Email_Automation)
+  - Auto-label incoming messages with AI
+  - AI Auto-Responder with context awareness
+  - Email summarization with AI
+  - Suspicious email analysis
+  - Automated email categorization
 
-Looking to effortlessly transform and publish entire Twitter (X) threads in multiple languages?  
-Check out my [n8n](https://n8n.partnerlinks.io/h1pwwf5m4toe) Twitter Thread (Flood) Translator & Poster workflow—it automates extraction, translation, rewriting, and posting in one seamless process.  
-Perfect for creators, marketers, and anyone aiming to reach new audiences with minimal effort and ultra-low cost!
+### Social Media & Content
+- [Telegram Bots](./Telegram)
+  - Agentic AI bot with LangChain
+  - AI-Powered Storytelling
+  - Voice and text message handling
+  - PDF chat integration
+  - Multi-language support
 
-👉 [Try the workflow here](https://n8n.io/workflows/4233-translate-and-repost-twitter-threads-in-multiple-languages-with-openai/)
+### Document Processing
+- [PDF & Document Processing](./PDF_Document_Processing)
+  - AI-powered PDF analysis
+  - Resume data extraction
+  - Audio transcription and summarization
+  - Document conversion and processing
+  - Intelligent document classification
 
----
+### Database & Storage
+- [Database Integration](./Database_Storage)
+  - PostgreSQL AI Agent
+  - MongoDB integration
+  - Supabase vector store
+  - Notion database sync
+  - Advanced data processing
 
-## 🧵 If you want to scrape Twitter (X) threads, definitely check this workflow
+### Messaging & Chat
+- [WhatsApp Automation](./WhatsApp)
+  - AI-powered business chatbots
+  - Sales meeting automation
+  - Media handling and smart replies
+  - RAG-based customer support
 
-Looking to extract and merge entire Twitter (X) threads quickly and affordably?  
-Check out my [n8n Twitter Thread Fetcher workflow](https://n8n.io/workflows/4088-extract-and-merge-twitter-x-threads-using-twitterapiio/)-it’s lightning-fast, cost-effective, and perfect for automating Twitter thread extraction for research, content curation, or archiving!
+- [Slack Integration](./Slack)
+  - AI-powered Slack bots
+  - Security operations automation
+  - Customer support workflows
+  - Information monitoring
 
----
+### Content Management
+- [WordPress Automation](./WordPress)
+  - AI-powered content creation
+  - Automatic tagging and categorization
+  - RAG-based chatbots
+  - Brand voice consistency
 
-### **Gmail & Email Automation**
+## 🛠️ Technical Expertise
 
-- Auto-label incoming Gmail messages with AI nodes
-- Basic Automatic Gmail Email Labelling with OpenAI and Gmail API
-- Compose reply draft in Gmail with OpenAI Assistant
-- Extract spending history from gmail to google sheet
-- Gmail AI Auto-Responder: Create Draft Replies to incoming emails
-- Send specific PDF attachments from Gmail to Google Drive using OpenAI
-- Summarize your emails with A.I. (via Openrouter) and send to Line messenger
-- Effortless Email Management with AI-Powered Summarization & Review
-- Analyze & Sort Suspicious Email Contents with ChatGPT
-- Analyze Suspicious Email Contents with ChatGPT Vision
-- A Very Simple "Human in the Loop" Email Response System Using AI and IMAP
-- Auto Categorise Outlook Emails with AI
-- Microsoft Outlook AI Email Assistant with contact support from Monday and Airtable
-- 📈 Receive Daily Market News from FT.com to your Microsoft outlook inbox
+- **Integration Platforms**
+  - n8n
+  - Zapier
+  - Make (Integromat)
+  - Custom API development
 
-### **Telegram**
+- **AI & ML**
+  - OpenAI GPT-4
+  - Claude
+  - LangChain
+  - Vector Databases (Qdrant, Pinecone)
+  - Custom AI model integration
 
-- Agentic Telegram AI bot with LangChain nodes and new tools
-- [Empower Your AI Chatbot with Long-Term Memory and Dynamic Tool Routing (n8n workflow template)](https://n8n.io/workflows/3025-empower-your-ai-chatbot-with-long-term-memory-and-dynamic-tool-routing/)
-- AI-Powered Children’s Arabic Storytelling on Telegram
-- AI-Powered Children’s English Storytelling on Telegram with OpenAI
-- Automated AI image analysis and response via Telegram
-- Angie, Personal AI Assistant with Telegram Voice and Text
-- Chat with OpenAIs GPT via a simple Telegram Bot
-- Telegram AI bot assistant: ready-made template for voice & text messages
-- Telegram AI Bot: NeurochainAI Text & Image - NeurochainAI Basic API Integration
-- Telegram AI bot with LangChain nodes
-- Telegram AI Chatbot
-- Telegram Bot with Supabase memory and OpenAI assistant integration
-- Telegram chat with PDF
-- 🤖 Telegram Messaging Agent for Text_Audio_Images
-- Telegram to Spotify with OpenAI
-- Send a random recipe once a day to Telegram
-- Detect toxic language in Telegram messages
-- Translate Telegram audio messages with AI (55 supported languages)
+- **Cloud Services**
+  - Google Cloud
+  - AWS
+  - Microsoft Azure
+  - Custom cloud solutions
 
-### **Google Drive & Google Sheets**
+- **Development**
+  - JavaScript/TypeScript
+  - Python
+  - API Development
+  - Webhook Implementation
+  - Custom integrations
 
-- Automated End-to-End Fine-Tuning of OpenAI Models with Google Drive Integration
-- Automatic Background Removal for Images in Google Drive
-- Build an OpenAI Assistant with Google Drive Integration
-- RAG Chatbot for Company Documents using Google Drive and Gemini
-- RAG_Context-Aware Chunking: Google Drive to Pinecone via OpenRouter & Gemini
-- Summarize the New Documents from Google Drive and Save Summary in Google Sheet
-- Upload to Instagram and Tiktok from Google Drive
-- Author and Publish Blog Posts From Google Sheets
-- Chat with a Google Sheet using AI
-- Chat with your event schedule from Google Sheets in Telegram
-- Qualify new leads in Google Sheets via OpenAI’s GPT-4
-- Screen Applicants With AI, notify HR and save them in a Google Sheet
-- Summarize Google Sheets form feedback via OpenAI’s GPT-4
+## 💼 Professional Services
 
-### **Slack**
+- Custom n8n workflow development
+- AI integration and automation
+- Business process optimization
+- API integration and development
+- Technical consulting and support
+- Custom automation solutions
+- System architecture design
 
-- Automated Notion task reminders via Slack
-- AI-Powered Information Monitoring with OpenAI, Google Sheets, Jina AI and Slack
-- Creating an AI Slack Bot with Google Gemini
-- Customer Support Channel and Ticketing System with Slack and Linear
-- Enhance Security Operations with the Qualys Slack Shortcut Bot!
-- Sentiment Analysis Tracking on Support Issues with Linear and Slack
-- IT Ops AI SlackBot Workflow - Chat with your knowledge base
+## 📫 Contact
 
-### **Notion**
+- **LinkedIn:** [Tanveer Hussain](https://www.linkedin.com/in/tanveer-hussain-277119196/)
+- **Upwork:** [Profile](https://www.upwork.com/freelancers/~01a14d825a9bd8689d)
+- **Email:** [agapaitanveermou@gmail.com](mailto:agapaitanveermou@gmail.com)
 
-- Add positive feedback messages to a table in Notion
-- Analyse papers from Hugging Face with AI and store them in Notion
-- Notion AI Assistant Generator
-- Notion knowledge base AI assistant
-- Notion to Pinecone Vector Store Integration
-- Store Notion’s Pages as Vector Documents into Supabase with OpenAI
-- Upsert huge documents in a vector store with Supabase and Notion
-- Turn Emails into AI-Enhanced Tasks in Notion (Multi-User Support) with Gmail, Airtable and Softr
-- Automate Competitor Research with Exa.ai, Notion and AI Agents
+## 🔒 License
 
-### **Airtable**
-
-- AI Agent for project management and meetings with Airtable and Fireflies
-- AI Agent to chat with Airtable and analyze data
-- Get Airtable data via AI and Obsidian Notes
-- Turn Emails into AI-Enhanced Tasks in Notion (Multi-User Support) with Gmail, Airtable and Softr
-- vAssistant for Hubspot Chat using OpenAi and Airtable
-- Handling Job Application Submissions with AI and [n8n](https://n8n.partnerlinks.io/h1pwwf5m4toe) Forms
-
-### **OpenAI & LLMs**
-
-- Advanced AI Demo (Presented at AI Developers #14 meetup)
-- AI agent chat
-- AI agent that can scrape webpages
-- AI Crew to Automate Fundamental Stock Analysis - Q&A Workflow
-- AI Customer feedback sentiment analysis
-- AI Data Extraction with Dynamic Prompts and Airtable
-- AI Data Extraction with Dynamic Prompts and Baserow
-- AI-Driven Lead Management and Inquiry Automation with ERPNext & [n8n](https://n8n.partnerlinks.io/h1pwwf5m4toe)
-- AI Fitness Coach Strava Data Analysis and Personalized Training Insights
-- AI-Powered Candidate Shortlisting Automation for ERPNext
-- AI-Powered Email Automation for Business: Summarize & Respond with RAG
-- AI-powered email processing autoresponder and response approval (Yes/No)
-- AI-Powered RAG Workflow For Stock Earnings Report Analysis
-- AI-Powered Social Media Amplifier
-- AI Powered Web Scraping with Jina, Google Sheets and OpenAI: the EASY way
-- AI-powered WooCommerce Support-Agent
-- ⚡AI-Powered YouTube Video Summarization & Analysis
-- AI_ Ask questions about any data source (using the [n8n](https://n8n.partnerlinks.io/h1pwwf5m4toe) workflow retriever)
-- AI_ Summarize podcast episode and enhance using Wikipedia
-- AI Voice Chatbot with ElevenLabs & OpenAI for Customer Service and Restaurants
-- AI Voice Chat using Webhook, Memory Manager, OpenAI, Google Gemini & ElevenLabs
-- AI web researcher for sales
-- AI Youtube Trend Finder Based On Niche
-- AI Automated HR Workflow for CV Analysis and Candidate Evaluation
-- AI Agent with Ollama for current weather and wiki
-- AI Agent _ Google calendar assistant using OpenAI
-- AI Agent to chat with Supabase_PostgreSQL DB
-- AI Agent To Chat With Files In Supabase Storage
-- AI Agent to chat with you Search Console Data, using OpenAI and Postgres
-- AI Social Media Caption Creator creates social media post captions in Airtable
-- AI-Generated Summary Block for WordPress Posts
-- AI Automated HR Workflow for CV Analysis and Candidate Evaluation
-
-### **WhatsApp**
-
-- Building Your First WhatsApp Chatbot
-- Complete business WhatsApp AI-Powered RAG Chatbot using OpenAI
-- Respond to WhatsApp Messages with AI Like a Pro!
-- Automate Sales Meeting Prep with AI & APIFY Sent To WhatsApp
-
-### **Discord**
-
-- Discord AI-powered bot
-- Send daily translated Calvin and Hobbes Comics to Discord
-- Share YouTube Videos with AI Summaries on Discord
-
-### **WordPress**
-
-- Auto-Categorize blog posts in wordpress using A.I.
-- Auto-Tag Blog Posts in WordPress with AI
-- Automate Blog Creation in Brand Voice with AI
-- Automate Content Generator for WordPress with DeepSeek R1
-- WordPress - AI Chatbot to enhance user experience - with Supabase and OpenAI
-- Write a WordPress post with AI (starting from a few keywords)
-
-### **PDF & Document Processing**
-
-- Ask questions about a PDF using AI
-- Chat with PDF docs using AI (quoting sources)
-- Convert URL HTML to Markdown Format and Get Page Links
-- Extract and process information directly from PDF using Claude and Gemini
-- Extract data from resume and create PDF with Gotenberg
-- Manipulate PDF with Adobe developer API
-- Parse PDF with LlamaParse and save to Airtable
-- Transcribe Audio Files, Summarize with GPT-4, and Store in Notion
-- Transcribing Bank Statements To Markdown Using Gemini Vision AI
-
-### **Other Integrations & Use Cases**
-
-- Zoom AI Meeting Assistant creates mail summary, ClickUp tasks and follow-up call
-- Siri AI Agent: Apple Shortcuts powered voice template
-- Text automations using Apple Shortcuts
-- LINE Assistant with Google Calendar and Gmail Integration
-- Monthly Spotify Track Archiving and Playlist Classification
-- Automate Pinterest Analysis & AI-Powered Content Suggestions With Pinterest API
-- Enhance Customer Chat by Buffering Messages with Twilio and Redis
-- Handling Appointment Leads and Follow-up With Twilio, Cal.com and AI
-- Visualize your SQL Agent queries with OpenAI and Quickchart.io
-- UTM Link Creator & QR Code Generator with Scheduled Google Analytics Reports
-
-### **AI Research, RAG, and Data Analysis**
-
-- AI-Powered Information Monitoring with OpenAI, Google Sheets, Jina AI and Slack
-- Analyze tradingview.com charts with Chrome extension, [n8n](https://n8n.partnerlinks.io/h1pwwf5m4toe) and OpenAI
-- Build a Financial Documents Assistant using Qdrant and Mistral.ai
-- Building RAG Chatbot for Movie Recommendations with Qdrant and Open AI
-- Deduplicate Scraping AI Grants for Eligibility using AI
-- Enrich Pipedrive’s Organization Data with OpenAI GPT-4o & Notify it in Slack
-- Extract insights & analyse YouTube comments via AI Agent chat
-- Make OpenAI Citation for File Retrieval RAG
-- Summarize SERPBear data with AI (via Openrouter) and save it to Baserow
-- Summarize Umami data with AI (via Openrouter) and save it to Baserow
-
-### **Instagram, Twitter, Social Media**
-
-- AI agent for Instagram DM_inbox. Manychat + Open AI integration
-- Generate Instagram Content from Top Trends with AI Image Generation
-- Update Twitter banner using HTTP request
-- Twitter Virtual AI Influencer
-- Create dynamic Twitter profile banner
-- Post New YouTube Videos to X
-
-### **Forms & Surveys**
-
-- Email Subscription Service with [n8n](https://n8n.partnerlinks.io/h1pwwf5m4toe) Forms, Airtable and AI
-- Handling Job Application Submissions with AI and [n8n](https://n8n.partnerlinks.io/h1pwwf5m4toe) Forms
-- Qualifying Appointment Requests with AI & [n8n](https://n8n.partnerlinks.io/h1pwwf5m4toe) Forms
-
-### **Database & Storage**
-
-- Chat with Postgresql Database
-- MongoDB AI Agent - Intelligent Movie Recommendations
-- Supabase Insertion & Upsertion & Retrieval
-- Upsert huge documents in a vector store with Supabase and Notion
-
-### **Other**
-
-- ALL_unique_nodes.txt (node reference)
-
-... and more !
+All automation templates in this repository are available for reference and learning purposes. For commercial use or customization, please contact me directly.
 
 ---
 
-If you would like to contribute additional templates or suggest new categories, feel free to open an issue or pull request!
+*"Automation is not about replacing humans, it's about empowering them to do more meaningful work."*
+
+---
+
+## 🚀 Featured Workflows
+
+### AI-Powered Research Assistant
+Advanced research and analysis automation:
+- Automated paper summarization
+- Content categorization
+- Data analysis and visualization
+- Multi-source research integration
+
+### Business Process Automation
+Comprehensive business workflow solutions:
+- HR and recruitment automation
+- Customer service optimization
+- Data processing and analysis
+- Integration with major business tools
+
+### Document Intelligence System
+Advanced document processing:
+- AI-powered PDF analysis
+- Resume parsing and evaluation
+- Document classification
+- Content extraction and summarization
 
 ---
 
