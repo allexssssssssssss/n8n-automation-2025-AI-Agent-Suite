@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "instanceId": "0451e447-0d8d-4405-973e-6aa3c42810c8"
+  },
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Telegram Trigger",
+      "type": "n8n-nodes-base.telegramTrigger",
+      "position": [
+        0,
+        0
+      ],
+      "webhookId": "a1b2c3d4-telegram",
+      "parameters": {
+        "updates": [
+          "message"
+        ],
+        "additionalFields": {}
+      },
+      "credentials": {
+        "telegramApi": {
+          "id": "YOUR_TELEGRAM_CREDENTIALS",
+          "name": "YOUR_TELEGRAM_CREDENTIALS"
+        }
+      },
+      "typeVersion": 1
+    },
+    {
+      "id": "2",
+      "name": "Simple Memory",
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "position": [
+        300,
+        0
+      ],
+      "parameters": {
+        "sessionKey": "={{ $json.message.chat.id }}"
+      },
+      "typeVersion": 1
+    },
+    {
+      "id": "3",
+      "name": "OpenAI Chat Model",
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "position": [
+        600,
+        0
+      ],
+      "parameters": {},
+      "credentials": {
+        "openAiApi": {
+          "id": "YOUR_OPENAI_KEY",
+          "name": "YOUR_OPENAI_KEY"
+        }
+      },
+      "typeVersion": 1
+    },
+    {
+      "id": "4",
+      "name": "Telegram",
+      "type": "n8n-nodes-base.telegram",
+      "position": [
+        900,
+        0
+      ],
+      "parameters": {
+        "text": "={{ $json.message.text ? $json.output : 'Пожалуйста, отправьте только текстовое сообщение' }}",
+        "chatId": "={{ $('Telegram Trigger').item.json.message.chat.id }}",
+        "additionalFields": {}
+      },
+      "credentials": {
+        "telegramApi": {
+          "id": "YOUR_TELEGRAM_CREDENTIALS",
+          "name": "YOUR_TELEGRAM_CREDENTIALS"
+        }
+      },
+      "typeVersion": 1
+    }
+  ],
+  "connections": {
+    "Telegram Trigger": {
+      "main": [
+        [
+          {
+            "node": "OpenAI Chat Model",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Simple Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "OpenAI Chat Model",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "main": [
+        [
+          {
+            "node": "Telegram",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}
